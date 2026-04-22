@@ -21,17 +21,35 @@ AdventureWorks enfrentaba una dispersión de datos que impedía conocer la renta
 
 **Project Objectives**
 
-- **1. Centralize & Clean Data:** Unificar los datos dispersos en una sola fuente de verdad utilizando Power Query para facilitar el análisis.
-- **2. Performance Tracking:** Desarrollar visualizaciones que permitan entender la evolución de las ventas e identificar tendencias y causas de fluctuación.
-- **3. Customer Profiling:** Implementar una lógica dinámica en DAX para conocer cuántos clientes existen y categorizarlos según su comportamiento de compra (Diamante, Oro, Plata, Bronce).
-- **4.Strategic Insights:** Crear un dashboard interactivo que permita visualizar qué territorios y productos generan el mayor impacto financiero para la empresa.
+- **1. Centralizacion de información:** Unificar los datos dispersos en una sola fuente de verdad utilizando Power Query para facilitar el análisis.
+- **2. Análisis de desempeño temporal:** Desarrollar visualizaciones que permitan entender la evolución de las ventas e identificar tendencias y causas de fluctuación.
+- **3. Segmentación estratégica:** Implementar una lógica dinámica en DAX para conocer cuántos clientes existen y categorizarlos según su comportamiento de compra (Diamante, Oro, Plata, Bronce).
+- **4. Identificación de rentabilidad:** Crear un dashboard interactivo que permita visualizar qué territorios y productos generan el mayor impacto financiero para la empresa.
+___________
 
-
-
-
-
-
-
-## 3. 📊 Dashboard Interactivo
+## 3. 📊 Interactive Dashboard 
 ![Dashboard de Adventure Works](imagen/Adventure_dashboard.png)
-*Nota. Este dashboard interactivo permite filtrar por año y país, además contiene KPIs importantes de venta, utilidad, órdenes y clientes. Se desataca tambien la segmentación dinámica de clientes donde se observa la diferencia entre el volumen de clientes "Bronce" con la alta rentabilidad del segmento "Diamante".*
+*Nota. Este dashboard interactivo permite filtrar por año y país, además contiene KPIs importantes de venta, utilidad, órdenes y clientes. Se destaca también la segmentación dinámica de clientes donde se observa la diferencia entre el volumen de clientes "Bronce" con la alta rentabilidad del segmento "Diamante".*
+_____________
+## 4. 🛠️ Data Process / Methodology
+Para este proyecto se aplicó un flujo de trabajo optimizado, priorizando el rendimiento del archivo y la integridad de los cálculos:
+
+### Conexión y Limpieza (Power Query)
+Se importaron las tablas de dimensiones y de hechos directamente al motor de Power Query:
+* **Optimización de Memoria:** Los archivos se cargaron únicamente como **"Conexión"**, evitando el volcado de datos en las hojas de Excel para mantener un archivo ligero.
+* **Transformación de Datos:**
+    * Se convirtieron columnas de costo y precio unitario a **formato numérico**.
+    * Se crearon columnas calculadas para **Mes** y **Año**.
+    * Se realizó una **concatenación de nombres** (First Name + Last Name) para consolidar la identidad del cliente.
+    * Se eliminaron columnas irrelevantes para reducir el peso del modelo.
+### Modelado de Datos (Power Pivot)
+* **Esquema Estrella:** Se establecieron relaciones sólidas conectando todas las tablas de dimensiones hacia la tabla de hechos (*Sales*).
+* **Integridad Referencial:** Este modelo permite que todas las visualizaciones respondan de forma sincronizada a los filtros aplicados.
+### Desarrollo de Medidas DAX
+* **Métricas Base:** Ingresos totales, margen de utilidad, porcentaje de utilidad, ticket promedio, clientes totales y conteo de órdenes únicas.
+* **Lógica de Negocio:** Implementación de segmentación dinámica para categorizar a los clientes según su volumen de consumo.
+### Visualización y Diseño
+* **Análisis Dinámico:** Creación de tablas y gráficos dinámicos conectados a segmentadores de Año y Región.
+* **Diseño UI:** Aplicación de una paleta de colores armonizada para facilitar la lectura de los KPIs y dar un acabado profesional al proyecto.
+________
+## 5.
