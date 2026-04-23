@@ -28,7 +28,7 @@ AdventureWorks enfrentaba una dispersión de datos que impedía conocer la renta
 ___________
 
 ## 3. 📊 Interactive Dashboard 
-![Dashboard de Adventure Works](imagen/Adventure_dashboard.png)
+![Dashboard de Adventure Works](imagen/Dashboard.png)
 *Nota. Este dashboard interactivo permite filtrar por año y país, además contiene KPIs importantes de venta, utilidad, órdenes y clientes. Se destaca también la segmentación dinámica de clientes donde se observa la diferencia entre el volumen de clientes "Bronce" con la alta rentabilidad del segmento "Diamante".*
 _____________
 ## 4. 🛠️ Data Process / Methodology
