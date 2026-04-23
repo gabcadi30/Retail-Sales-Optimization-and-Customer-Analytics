@@ -5,7 +5,7 @@
 ![Power Pivot](https://img.shields.io/badge/Power_Pivot-Modeling-yellow?style=for-the-badge)
 ![DAX](https://img.shields.io/badge/DAX-Analysis-orange?style=for-the-badge)
 
-## 1. 📈Executive Summary 
+## 1. 📌Executive Summary 
 Este análisis integral de ventas revela una transformación clave tras la diversificación de 2016, logrando un incremento de **$2.9M** en ingresos y triplicando la base de clientes con respecto al 2015. El estudio destaca una estructura de consumo muy definida: el **34.86%** de la población son clientes *"Bronce"* (ticket promedio $50), mientras que el segmento *"Diamante"*, aunque representa el **30.84%** de los clientes, constituye el motor financiero con un ticket promedio de $2,058, evidenciando una sólida base de compradores de alto valor.
 
 Geográficamente, el modelo identifica una brecha de eficiencia: Australia genera el segundo mayor volumen de ingresos con la rentabilidad más baja, mientras que Canadá registra los ingresos más bajos pero alcanza la rentabilidad más alta. La estrategia final propone optimizar márgenes en mercados de alto volumen replicando la eficiencia canadiense y capitalizar el flujo masivo de clientes de accesorios (como Tires and Tubes y Bottles) para escalarlos hacia productos de alta gama, mejorando la rentabilidad global.
@@ -35,4 +35,5 @@ Para este proyecto se aplicó un flujo de trabajo optimizado, priorizando el ren
 *Figura 1: Arquitectura de Modelo Estrella implementada en Power Pivot.*
 ____________
 
-## 4.
+## 4. 💡Key Insights
+
