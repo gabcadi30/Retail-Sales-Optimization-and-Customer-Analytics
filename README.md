@@ -25,7 +25,7 @@ Para este proyecto se aplicó un flujo de trabajo optimizado, priorizando el ren
 * **Data Modeling (Star Schema):** Implementación de un **Modelo Estrella** en Power Pivot, estableciendo relaciones sólidas entre la *Fact Table* (`Sales`) y las *Dimension Tables* (`Customers`, `Products`, `Territories`, `Categories`,`Subcategories`). 
     * Configuración de integridad referencial para garantizar que todas las visualizaciones respondan de forma sincronizada.
       
-* **Cálculos en DAX:** Desarrollo de medidas para **KPIs** base: Ingresos Totales, Margen, % Utilidad y Ticket Promedio.
+* **DAX Measures:** Desarrollo de medidas para **KPIs** base: Ingresos Totales, Margen, % Utilidad y Ticket Promedio.
     * **Lógica de Negocio:** Implementación de segmentación dinámica para categorizar a los 17,416 clientes según su volumen de consumo (Bronce, Plata, Oro y Diamante).
       
 * **UI Design & Analytics:** Diseño de interfaz profesional con una paleta de colores armonizada para facilitar la lectura de métricas críticas.
