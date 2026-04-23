@@ -36,4 +36,18 @@ Para este proyecto se aplicó un flujo de trabajo optimizado, priorizando el ren
 ____________
 
 ## 4. 💡Key Insights
+* **Contraste de Valor por Segmento:** Mientras que el segmento Bronce representa el mayor volumen de clientes (34.86%), el segmento Diamante sostiene la rentabilidad con un ticket promedio de **$2,058**.
+* **Paradoja Regional:** Se identificó que Australia es un mercado de alto volumen pero baja eficiencia, mientras que **Canadá** es un mercado de bajo volumen pero máxima rentabilidad operativa.Esto indica que el costo de vender en Canadá es proporcionalmente más alto que en el resto del mundo.
+* **Impacto de Diversificación:** La expansión de categorías en 2016 aumentó los ingresos en **$2.9M** y cambió la dinámica de adquisición hacia productos de menor ticket pero mayor frecuencia.
+______________
+## 5. 🎯Strategic Recommendations 
+* **Estrategia de Upselling:** Implementar campañas dirigidas al segmento Bronce (compradores de accesorios) para incentivarlos a adquirir productos de mayor valor, buscando elevar su *Customer Lifetime Value* (LTV).
+* **Optimización de Márgenes:** Realizar un **análisis profundo de costos operativos** en la región de Australia para identificar fugas de rentabilidad o costos ocultos,además buscar replicar las políticas de eficiencia aplicadas en Canadá.
+* **Fidelización del Segmento Diamante:** Crear programas de beneficios exclusivos para el segmento Diamante, dado que representan el motor financiero real del negocio a pesar de no ser el grupo más numeroso.
+
+## 👤 Author
+**Gabriela Cadillo** - *Junior Data Analyst*
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tu-usuario-aqui)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tu-correo@ejemplo.com)
+
 
